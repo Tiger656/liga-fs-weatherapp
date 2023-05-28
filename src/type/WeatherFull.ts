@@ -1,30 +1,30 @@
 export type WeatherFull = {
-    latitude: Number,
-    longitude: Number,
-    generationtime_ms: Number,
-    utc_offset_seconds: Number,
-    timezone: String,
-    timezone_abbreviation: String,
-    elevation: Number,
+    latitude: number,
+    longitude: number,
+    generationtime_ms: number,
+    utc_offset_seconds: number,
+    timezone: string,
+    timezone_abbreviation: string,
+    elevation: number,
     current_weather: {
-        temperature: Number,
-        windspeed: Number,
-        winddirection: Number,
-        weathercode: Number,
-        is_day: Number,
-        time: String
+        temperature: number,
+        windspeed: number,
+        winddirection: number,
+        weathercode: number,
+        is_day: number,
+        time: string
     },
     hourly_units: {
-        time: String,
-        temperature_2m: String,
-        relativehumidity_2m: String,
-        windspeed_10m: String
+        time: string,
+        temperature_2m: string,
+        relativehumidity_2m: string,
+        windspeed_10m: string
     },
     hourly: {
-        time: Array<String>,
-        temperature_2m: Array<Number>,
-        relativehumidity_2m: Array<Number>,
-        windspeed_10m: Array<Number>
+        time: Array<string>,
+        temperature_2m: Array<number>,
+        relativehumidity_2m: Array<number>,
+        windspeed_10m: Array<number>
     },
-    display_name: String
+    display_name: string
 }

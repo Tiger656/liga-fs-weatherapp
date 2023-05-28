@@ -1,10 +1,9 @@
-import { Place } from "../type/Place";
-import { WeatherFull } from "../type/WeatherFull";
-
+import { Place } from "../type/Place.ts";
+import { WeatherFull } from "../type/WeatherFull.ts";
 
 export interface IWeatherService {
     
-    getWeatherByPlaceName(cityName: String): Promise<Array<WeatherFull>>;
+    getWeatherByPlaceName(cityName: string): Promise<Array<WeatherFull>>;
 
     retrieveWeatherByPlaces(places: Array<Place>): Promise<Array<WeatherFull>>
 

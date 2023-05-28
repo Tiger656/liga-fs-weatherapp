@@ -1,14 +1,14 @@
 export type Place = {
-    place_id: Number,
-    licence: String,
-    powered_by: String,
-    osm_type: String,
-    osm_id: Number,
-    boundingbox: Array<String>,
-    lat: String,
-    lon: String,
-    display_name: String,
-    class: String,
-    type: String,
-    importance: Number
+    place_id: number,
+    licence: string,
+    powered_by: string,
+    osm_type: string,
+    osm_id: number,
+    boundingbox: Array<string>,
+    lat: string,
+    lon: string,
+    display_name: string,
+    class: string,
+    type: string,
+    importance: number
 }
